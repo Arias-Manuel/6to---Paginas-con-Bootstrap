@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    overflow-x: hidden;
+}
+
+#navbarNav {
+      text-align: center;
+      justify-content: flex-end;
+  }
+
+/*Index*/
+
+.index__img__responsive {
+  display: block;
+}
+  .index__img__responsive img {
+    width: 100%;
+    height: 200px;
+  }
+
+.index__img__desktop {
+  display: none;
+}
+  .index__img__desktop img{
+    width: 100%;
+    height: 200px;
+  }
+
+
+.carousel-inner {
+    max-height: 39rem;
+    margin: 0 auto;
+}
+  .carousel-inner img {
+  height: 300px;
+  padding: 1rem;
+  }
+
+/*Bibliografia*/
+
+.imagenes {
+    height: 200px;
+    max-width: 100%;
+}
+  .img__desktop {
+      display: block;
+  }
+    .contenedor__img__responsive {
+        display: none;
+    }
+
+/*Fanshots*/
+
+#galeria col-lg-4 {
+  margin: 0;
+  padding: 25px;
+}
+  #galeria img {
+    width: 100%;
+    height: 250px;
+  }
+    #galeria iframe {
+      width: 100%;
+      height: 250px;
+    }
+      #galeria img:hover {
+        border: 5px solid #ffff
+      }
+
+/*productos*/
+
+#ventas col-lg-4 {
+  margin: 0;
+  padding: 25px;
+}
+  #ventas img {
+    width: 100%;
+    height: 250px;
+  }
+    #ventas img:hover {
+      border: 5px solid #ffff
+    }
+
+#ventas_1 col-lg-4 {
+  margin: 0;
+  padding: 25px;
+}
+  #ventas_1 img {
+    width: 100%;
+    height: 250px;
+  }
+    #ventas_1 img:hover {
+      border: 5px solid #ffff
+    }
+
+#ventas_2 col-lg-4 {
+  margin: 0;
+  padding: 25px;
+}
+  #ventas_2 img {
+    width: 100%;
+    height: 250px;
+  }
+    #ventas_2 img:hover {
+      border: 5px solid #ffff
+    }
+
+/*Contacto*/
+
+#checkbox {
+  margin-left: 1rem;
+  width: 1rem;
+}
+
+/* Inicio de la media quary*/
+
+@media (min-width: 780px) {
+
+  /*index*/
+  .index__img__desktop {
+    display: block;
+  }
+    .index__img__responsive {
+      display: none;
+    }
+  
+ /*bibliografia - parte*/
+
+ .img__desktop {
+  display: none;
+  }
+  .contenedor__img__responsive {
+    display: block;
+  }
+    
+}
+
+
